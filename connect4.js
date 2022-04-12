@@ -106,7 +106,7 @@ class Game {
     }
     
     // check for tie
-    if (board.every(row => row.every(cell => cell))) {
+    if (this.board.every(row => row.every(cell => cell))) {
       return this.endGame('Tie!');
     }
       
