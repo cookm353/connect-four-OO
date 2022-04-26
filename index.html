@@ -4,10 +4,23 @@
   <link href="connect4.css" rel="stylesheet">
 </head>
 <body>
-
-<div id="game">
-  <table id="board"></table>
-</div>
+  <h1>Connect Four</h1>
+  
+  <div id="game">
+    <table id="board"></table>
+  </div>
+  <button id="startBttn">New Game</button>
+  <div>
+    <form id="newGameForm">
+      <label for="width">Width</label>
+      <input type="text" name="width" id="widthField" value="7"><br>
+      <label for="height">Height</label>
+      <input type="text" name="height" id="heightField" value="6"><br>
+      <label for="numPlayers">Number of Players</label>
+      <input type="number" name="numPlayers" id="numPlayers" min="0" max="4" value="2"><br>
+      <button id="submitBttn">Start</button>
+    </form>
+  </div>
 
 <script src="connect4.js"></script>
 

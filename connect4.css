@@ -1,4 +1,30 @@
+div {
+  width: 100%;
+  /* position: relative; */
+}
+
+h1 {
+  text-align: center;
+}
+
+#startBttn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#newGameForm {
+  display: none;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* game board table */
+
+#board {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #board td {
   width: 50px;
@@ -13,14 +39,13 @@
   width: 80%;
   height: 80%;
   border-radius: 50%;
+  border: 0.25px solid black;
 }
 
-.piece.p1 {
-  background-color: red;
-}
+/* New game form styles */
 
-.piece.p2 {
-  background-color: blue;
+fieldset {
+  border: 0
 }
 
 /* column-top is table row of clickable areas for each column */

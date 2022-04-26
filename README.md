@@ -11,7 +11,7 @@
     * Game will only start after it's been clicked
     * Clicking again will start a new game
 * Add a property for when the game is over
-    * Additional moves can be made once it's over
+    * Additional moves can't be made once it's over
     * Boolean variable checked before game lets you make another move
 
 ## Make a Player Class
